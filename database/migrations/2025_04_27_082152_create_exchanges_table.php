@@ -14,10 +14,13 @@ return new class extends Migration
         Schema::create('exchanges', function (Blueprint $table) {
             $table->id();
             $table->string('name');
+            $table->string('payment_method');
+            $table->date('Date_txn');
+            $table->string('description');
+            $table->double('amount');
             $table->timestamps();
         });
     }
-
     /**
      * Reverse the migrations.
      */

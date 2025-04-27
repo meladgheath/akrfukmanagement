@@ -20,8 +20,8 @@ class ReservationsResource extends Resource
     protected static ?string $model = Reservations::class;
 
     protected static ?string $navigationIcon = 'heroicon-o-rectangle-stack';
-    protected static ?string $navigationGroup = 'Reservations';
-    protected static ?string $navigationLabel = 'الحجوزات';
+//    protected static ?string $navigationGroup = 'Reservations';
+//    protected static ?string $navigationLabel = 'الحجوزات';
 
     public static function form(Form $form): Form
     {
